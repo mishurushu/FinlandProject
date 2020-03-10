@@ -12,7 +12,7 @@ public class Exercise65 {
         do {
             System.out.print("Add your word: ");
             valoare = scanner.nextLine();
-            lista.add(valoare);
+            lista.add(String.valueOf(valoare.length()));
         }while (!valoare.equals(""));
         ArrayList<Integer> lengths = lista(lista);
         System.out.println("The lengths of the Strings: " + lengths);
