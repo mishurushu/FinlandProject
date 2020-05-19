@@ -1,4 +1,4 @@
-package week4.lyyraCard;
+package week4.exercise76lyyraCard;
 
 public class MainLyyraCard {
     public static void main(String[] args) {
